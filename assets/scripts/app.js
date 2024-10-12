@@ -66,6 +66,10 @@ const swiperShowcase = new Swiper('.showcase__swiper', {
     speed: 800,
     parallax: true,
     effect: "fade",
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
 
     pagination: {
         el: '.swiper-pagination',
