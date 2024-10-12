@@ -1161,6 +1161,10 @@ background-color: var(--secondary-color);
 }
 
 @media screen and (max-width: 768px) {
+    .contact__content {
+        grid-template-columns: 1fr;
+    }
+
     .contact__group {
         grid-template-columns: 1fr;
     }
