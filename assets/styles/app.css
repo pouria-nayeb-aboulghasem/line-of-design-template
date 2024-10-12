@@ -1163,6 +1163,11 @@ background-color: var(--secondary-color);
 @media screen and (max-width: 768px) {
     .contact__content {
         grid-template-columns: 1fr;
+        gap: var(--space-5);
+    }
+
+    .contact__data {
+        padding-inline: 0;
     }
 
     .contact__group {
