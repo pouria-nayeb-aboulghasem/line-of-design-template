@@ -800,6 +800,15 @@ body.dark-theme{
     margin-top: var(--space-3);
 }
 
+.footer__copyright a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.footer__copyright a:hover {
+    color: var(--white-color);
+}
+
 @media screen and (min-width: 768px) {
     .footer__container {
         grid-template-columns: repeat(2, 1fr);
