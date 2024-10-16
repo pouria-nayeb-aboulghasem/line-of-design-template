@@ -64,6 +64,10 @@ h1,h2,h3,h4,h5,h6 {
     font-family: var(--ff-playfair);
 }
 
+input, textarea {
+    font-family: var(--ff-playfair);
+}
+
 a {
     font-family: var(--ff-playfair);
 }
@@ -1169,8 +1173,8 @@ background-color: var(--secondary-color);
     justify-content: center;
     align-items: center;
     width: 160px;
-    height: 32px;
-    background-color: var(--text-color);
+    height: 38px;
+    background-color: var(--white-color);
     color: var(--black-color);
     font-size: var(--fs-sm);
     font-weight: var(--fw-medium);
@@ -1181,7 +1185,7 @@ background-color: var(--secondary-color);
 }
 
 .contact__button:hover {
-    background-color: var(--white-color);
+    background-color: var(--text-color);
 }
 
 @media screen and (max-width: 768px) {
