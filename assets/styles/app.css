@@ -1,5 +1,6 @@
 /* fonts */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap');
 
 /* variables */
 :root {
@@ -13,7 +14,8 @@
     --white-color: #ffffff;
     --black-color: #000000;
 
-    --ff-montserrat: "Montserrat Alternates", sans-serif;
+    --ff-poppins: "Poppins", sans-serif;
+    --ff-playfair: "Playfair Display", serif;
 
     --fs-xl: 2rem;
     --fs-lg: 1.5rem;
@@ -52,10 +54,22 @@
 }
 
 body {
-    font-family: var(--ff-montserrat);
+    font-family: var(--ff-poppins);
     font-size: var(--fs-md);
     background-color: var(--black-color);
     color: var(--white-color);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--ff-playfair);
+}
+
+a {
+    font-family: var(--ff-playfair);
+}
+
+button {
+    font-family: var(--ff-playfair);
 }
 
 img {
@@ -570,6 +584,7 @@ body.dark-theme{
     width: max-content;
     height: 34px;
     background-color: var(--black-color);
+    font-family: var(--ff-playfair);
     padding-inline: 0.75rem;
     display: flex;
     font-size: var(--fs-sm);
