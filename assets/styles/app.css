@@ -543,7 +543,7 @@ body.dark-theme{
     position: absolute;
     height: max-content;
     bottom: -5rem;
-    right: 1.5rem;
+    right: 2.5rem;
     display: flex;
     column-gap: var(--space-5);
     z-index: var(--zi-soft);
