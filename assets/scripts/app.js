@@ -83,3 +83,15 @@ const swiperShowcase = new Swiper('.showcase__swiper', {
         prevEl: '.swiper-button-prev',
     }
 });
+
+const swiperTop = new Swiper('.top__swiper', {
+    loop: true,
+    grabCursor: true,
+    slidesPerView: "auto",
+    centeredSlides: "auto",
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    }
+});
