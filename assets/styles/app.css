@@ -483,11 +483,11 @@ body.dark-theme{
 
 .top__item {
     position: relative;
-    width: 300px;
+    width: 350px;
 }
 
 .top__img {
-    width: 300px;
+    width: 350px;
     scale: 0.8;
     opacity: 0.25;
     transition: scale 0.4s, opacity 0.4s;
@@ -595,19 +595,19 @@ body.dark-theme{
     }
 }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 800px) {
     .top__content {
-        height: 45vh;
+        height: 70vh;
         grid-template-columns: 370px;
         justify-content: center;
     }
 
     .top__item, .top__img {
-        width: 350px;
+        width: 450px;
     }
 
     .top__swiper {
-        max-width: 768px;
+        max-width: 800px;
         overflow-x: clip;
         justify-self: center;
     }
@@ -626,7 +626,6 @@ body.dark-theme{
     .top__content {
         grid-template-columns: 520px;
         row-gap: 4rem;
-        height: 70vh;
     }
 
     .top__cheese--1, .top__cheese--2 {
