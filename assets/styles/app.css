@@ -446,6 +446,9 @@ body.dark-theme{
 
 /* carousel */
 .top__content {
+    display: grid;
+    align-items: center;
+    height: 80vh;
     row-gap: 3rem;
     grid-template-columns: 100%;
     padding-bottom: 3rem;
