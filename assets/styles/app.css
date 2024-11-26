@@ -493,22 +493,43 @@ body.dark-theme{
     transition: scale 0.4s, opacity 0.4s;
 }
 
-.img__leaf--1, .img__leaf--2 {
-    width: 70px;
+.top__button, .top__info {
     position: absolute;
     scale: 0;
     filter: var(--shadow-img);
     transition: scale 0.4s 0.1s;
 }
 
-.img__leaf--1 {
+.top__button {
+    display: inline-flex;
+    padding: var(--space-1);
+    font-size: var(--fs-lg);
+    border-radius: 50%;
+    background-color: var(--white-color);
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.top__button {
     top: -1rem;
     right: -0.5rem;
 }
 
-.img__leaf--2 {
-    bottom: -1rem;
-    left: -0.5rem;
+.top__info {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: var(--space-1)  var(--space-2);
+    color: var(--white-color);
+    bottom: 1.5rem;
+    left: 1rem;
+}
+
+.top__info h3 {
+    font-size: var(--fs-lg);
+    margin-bottom: var(--space-1);
+}
+
+.top__info p {
+    font-size: var(--fs-md);
 }
 
 .swiper {
@@ -522,8 +543,8 @@ body.dark-theme{
     filter: var(--shadow-img);
 }
 
-:is(.swiper-slide-active, .swiper-slide-duplicate-active) .img__leaf--1,
-:is(.swiper-slide-active, .swiper-slide-duplicate-active) .img__leaf--2 {
+:is(.swiper-slide-active, .swiper-slide-duplicate-active) .top__button,
+:is(.swiper-slide-active, .swiper-slide-duplicate-active) .top__info {
     scale: 1;
 }
 
@@ -546,7 +567,7 @@ body.dark-theme{
     position: absolute;
     height: max-content;
     bottom: -5rem;
-    right: 2.5rem;
+    right: 1.5rem;
     display: flex;
     column-gap: var(--space-5);
     z-index: var(--zi-soft);
@@ -616,8 +637,8 @@ body.dark-theme{
         width: 560px;
     }
 
-    .img__leaf--1, .img__leaf--2 {
-        width: 110px;
+    .top__content {
+        height: 70vh;
     }
 }
 
